@@ -5,5 +5,6 @@ import org.springframework.stereotype.Repository;
 
 // This repository handles the DB operation
 @Repository
-public interface GreetingRepository extends JpaRepository<Greeting, Long> {
+    public interface GreetingRepository extends JpaRepository<Greeting, Long> {
+
 }
